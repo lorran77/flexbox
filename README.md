@@ -1,2 +1,2 @@
 # flexbox
-atividade 18/04
+### atividade para estudo de flexbox - SENAI / Ford Enter
