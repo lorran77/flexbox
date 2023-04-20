@@ -21,7 +21,7 @@
     <header>
         <center>
             <h1>Flex-Direction: Row e column </h1>
-            <h3>Segue em anexo os exemplos:</h3>
+            <h3 class="textopropriedades">A propriedade CSS define como os flex items são colocados no flex container definindo o eixo principal e a direção (normal ou reversa).</h3>
             <hr>
         </center>
     </header>
@@ -40,10 +40,8 @@
 
 
     </main>
-
-
-
     <hr>
+
 
 
     <h2>Row-Reverse</h2>
@@ -58,8 +56,6 @@
 
 
     </main>
-
-
     <hr>
 
 
@@ -76,7 +72,6 @@
 
 
     </main>
-
     <hr>
 
 
@@ -93,16 +88,16 @@
 
 
     </main>
-
-
-
-
     <hr>
 
 
 
     <h1>Justify-Content</h1>
-    <p>serve para alinhar os objetos no eixo principal.</p>
+    <h3 class="textopropriedades">A propriedade justify-content define como o navegador distribui o espaço entre e ao redor dos itens de conteúdo ao longo do eixo principal de um contêiner flexível e o eixo embutido de um contêiner de grade.</h3>
+    <br>
+    <h2>Center</h2>
+    <p>Os itens são embalados nivelados um ao outro em direção ao centro do contêiner de alinhamento ao longo do eixo
+        principal.</p>
 
 
     <main class="container-justify-center">
@@ -114,12 +109,13 @@
 
 
     </main>
-
-
     <hr>
 
+
     <h2>Flex-Start</h2>
-    <p>serve para alinhar os objetos no eixo principal.</p>
+    <p>Os itens são embalados nivelados um ao outro em direção à borda do contêiner de alinhamento, dependendo do lado
+        inicial principal do contêiner flexível. Isso se aplica apenas a itens de layout flexível. Para itens que não
+        são filhos de um flex container, esse valor é tratado como start.</p>
 
 
     <main class="container-justify-flex-start">
@@ -131,14 +127,14 @@
 
 
     </main>
-
-
     <hr>
 
 
 
     <h2>Flex-End</h2>
-    <p>serve para alinhar os objetos no eixo principal.</p>
+    <p>Os itens são embalados nivelados um ao outro em direção à borda do contêiner de alinhamento, dependendo do lado
+        da extremidade principal do contêiner flexível. Isso se aplica apenas a itens de layout flexível. Para itens que
+        não são filhos de um flex container, esse valor é tratado como end.</p>
 
 
     <main class="container-justify-flex-end">
@@ -150,14 +146,14 @@
 
 
     </main>
-
-
     <hr>
 
 
 
-    <h2>Space-between</h2>
-    <p>serve para alinhar os objetos no eixo principal.</p>
+    <h2>Space-Between</h2>
+    <p>Os itens são distribuídos uniformemente dentro do contêiner de alinhamento ao longo do eixo principal. O
+        espaçamento entre cada par de itens adjacentes é o mesmo. O primeiro item está nivelado com a borda inicial
+        principal e o último item está nivelado com a borda final principal.</p>
 
 
     <main class="container-justify-space-between">
@@ -169,13 +165,13 @@
 
 
     </main>
-
-
     <hr>
 
 
-    <h2>Space-evenly</h2>
-    <p>Distribuido por igual.</p>
+    <h2>Space-Evenly</h2>
+    <p>Os itens são distribuídos uniformemente dentro do contêiner de alinhamento ao longo do eixo principal. O
+        espaçamento entre cada par de itens adjacentes, a borda inicial principal e o primeiro item, e a borda final
+        principal e o último item, são todos exatamente iguais.</p>
 
 
     <main class="container-justify-space-evenly">
@@ -187,14 +183,14 @@
 
 
     </main>
-
-
     <hr>
 
 
 
     <h2>Space-Around</h2>
-    <p>serve para alinhar os objetos no eixo principal.</p>
+    <p>Os itens são distribuídos uniformemente dentro do contêiner de alinhamento ao longo do eixo principal. O
+        espaçamento entre cada par de itens adjacentes é o mesmo. O espaço vazio antes do primeiro e depois do último
+        item é igual a metade do espaço entre cada par de itens adjacentes.</p>
 
 
     <main class="container-justify-space-around">
@@ -206,13 +202,15 @@
 
 
     </main>
-
-
     <hr>
 
 
     <h1>Align-Items</h1>
-    <p>serve para alinhar os objetos no eixo secundario.</p>
+    <h3 class="textopropriedades">A propriedade CSS align-items define o align-selfvalor em todos os filhos diretos como um grupo. No Flexbox, controla o alinhamento dos itens no Eixo Cruzado . No Layout de Grade, controla o alinhamento dos itens no Eixo do Bloco dentro de sua área de grade.</h3>
+    <br>
+    <h2>Center</h2>
+    <p>As caixas de margem dos itens flexíveis são centralizadas dentro da linha no eixo cruzado. Se o tamanho cruzado
+        de um item for maior que o contêiner flexível, ele transbordará igualmente em ambas as direções.</p>
 
 
     <main class="container-alignitems-center">
@@ -224,13 +222,11 @@
 
 
     </main>
-
-
     <hr>
 
 
-    <h2>Align-Items flex start</h2>
-    <p>serve para alinhar os objetos no eixo secundario.</p>
+    <h2>Align-Items Flex-Start</h2>
+    <p>As bordas da margem inicial cruzada dos itens flexíveis são niveladas com a borda inicial cruzada da linha.</p>
 
 
     <main class="container-alignitems-flex-start">
@@ -242,13 +238,11 @@
 
 
     </main>
-
-
     <hr>
 
 
-    <h2>Align-Items flex-end</h2>
-    <p>serve para alinhar os objetos no eixo secundario.</p>
+    <h2>Align-Items Flex-End</h2>
+    <p>As bordas da margem cruzada dos itens flexíveis são niveladas com a borda cruzada da linha.</p>
 
 
     <main class="container-alignitems-flex-end">
@@ -260,31 +254,165 @@
 
 
     </main>
-
-
     <hr>
 
 
-    <h2>Align-Items stretch</h2>
-    <p>serve para alinhar os objetos no eixo secundario.</p>
+    <h2>Align-Items Stretch</h2>
+    <p>Os itens flexíveis são esticados de forma que o tamanho cruzado da caixa de margem do item seja o mesmo que a
+        linha, respeitando as restrições de largura e altura.</p>
+        <p>Obs: class de blocos sem altura.</p>
 
 
     <main class="container-alignitems-stretch">
 
 
-        <div class="bloco1"> 1 </div>
-        <div class="bloco2"> 2 </div>
-        <div class="bloco3"> 3 </div>
+        <div class="bloco1-sem-altura"> 1 </div>
+        <div class="bloco2-sem-altura"> 2 </div>
+        <div class="bloco3-sem-altura"> 3 </div>
 
 
     </main>
+    <hr>
 
 
+    <h2>Align-Items Baseline</h2>
+    <p>Todos os itens flexíveis são alinhados de forma que suas linhas de base do contêiner flexível se alinhem. O item com a maior distância entre sua borda de margem inicial cruzada e sua linha de base é nivelado com a borda inicial cruzada da linha.</p>
+    <p>Obs: fontes de tamanhos(px) diferentes.</p>
+
+
+    <main class="container-alignitems-baseline">
+        
+
+
+        <div class="bloco1-fontes-diferentes "> 1 </div>
+        <div class="bloco2-fontes-diferentes "> 2 </div>
+        <div class="bloco3-fontes-diferentes "> 3 </div>
+
+
+    </main>
+    <hr>
+
+
+    <h1>Flex-Wrap</h1>
+    <h3 class="textopropriedades">A propriedade flex-wrap define se os itens flexíveis são forçados a ficarem na mesma linha ou se podem ser quebradas em varias linhas. Se o argumento for valido, ele define a direção em que as linhas são empilhadas.</h3>
+    <br>
+    <h2>NowWrap</h2>
+    <p>Os itens flexíveis são agrupados em uma unica linha, o que pode fazer com que o flex container transborde. O cross-start é equivalente ao início ou antes, dependendo do valor da flex-direction. Este é o valor padrão.</p>
+
+
+    <main class="container-flexwrap-nowwrap">
+
+
+        <div class="bloco1"> 1 </div>
+        <div class="bloco2"> 2 </div>
+        <div class="bloco3"> 3 </div>
+        <div class="bloco1"> 4 </div>
+        <div class="bloco2"> 5 </div>
+        <div class="bloco3"> 6 </div>
+        <div class="bloco1"> 7 </div>
+        <div class="bloco2"> 8 </div>
+        <div class="bloco3"> 9 </div>
+        <div class="bloco1"> 10 </div>
+        <div class="bloco2"> 11 </div>
+        <div class="bloco3"> 12 </div>
+
+
+    </main>
+    <hr>
+
+
+    <h2>Wrap</h2>
+    <p>Os itens flexíveis são quebrados em multiplas linhas. O cross-start é equivalente a iniciar ou antes dependendo do valor do flex-direction e cross-end é o oposto do especificado cross-start.</p>
+
+
+    <main class="container-flexwrap-wrap">
+
+
+        <div class="bloco1"> 1 </div>
+        <div class="bloco2"> 2 </div>
+        <div class="bloco3"> 3 </div>
+        <div class="bloco1"> 4 </div>
+        <div class="bloco2"> 5 </div>
+        <div class="bloco3"> 6 </div>
+        <div class="bloco1"> 7 </div>
+        <div class="bloco2"> 8 </div>
+        <div class="bloco3"> 9 </div>
+        <div class="bloco1"> 10 </div>
+        <div class="bloco2"> 11 </div>
+        <div class="bloco3"> 12 </div>
+        <div class="bloco1"> 13 </div>
+        <div class="bloco2"> 14 </div>
+        <div class="bloco3"> 15 </div>
+
+
+    </main>
+    <hr>
+
+
+    <h2>Wrap-Reverse</h2>
+    <p>Se comporta da mesma maneira que o wrap mas a quebra de linha ocorre na direção contrária, ou seja, para a linha acima.</p>
+    <p>Obs: Adicionando row-reverse, a ordem dos blocos é mudada.</p>
+
+
+    <main class="container-flexwrap-wrapreverse">
+
+
+        <div class="bloco1"> 1 </div>
+        <div class="bloco2"> 2 </div>
+        <div class="bloco3"> 3 </div>
+        <div class="bloco1"> 4 </div>
+        <div class="bloco2"> 5 </div>
+        <div class="bloco3"> 6 </div>
+        <div class="bloco1"> 7 </div>
+        <div class="bloco2"> 8 </div>
+        <div class="bloco3"> 9 </div>
+        <div class="bloco1"> 10 </div>
+        <div class="bloco2"> 11 </div>
+        <div class="bloco3"> 12 </div>
+        <div class="bloco1"> 13 </div>
+        <div class="bloco2"> 14 </div>
+        <div class="bloco3"> 15 </div>
+
+
+    </main>
     <hr>
 
 
 
 </body>
+
+
+<h1 class="textopropriedades2">Flex-Flow (SHORTHAND)</h1>
+    <h3 class="textopropriedades2">FLEX DIRECTION + FLEX WRAP</h3>
+    <h3 class="textopropriedades2">A propriedade flex-flow é uma junção das propriedades flex-direction e flex-wrap.</h3>
+    <br>
+    
+    
+    
+
+
+    <main class="container-flexflow-row-nowrap">
+
+
+        <div class="bloco1"> 1 </div>
+        <div class="bloco2"> 2 </div>
+        <div class="bloco3"> 3 </div>
+        <div class="bloco1"> 4 </div>
+        <div class="bloco2"> 5 </div>
+        <div class="bloco3"> 6 </div>
+        <div class="bloco1"> 7 </div>
+        <div class="bloco2"> 8 </div>
+        <div class="bloco3"> 9 </div>
+        <div class="bloco1"> 10 </div>
+        <div class="bloco2"> 11 </div>
+        <div class="bloco3"> 12 </div>
+        <div class="bloco1"> 13 </div>
+        <div class="bloco2"> 14 </div>
+        <div class="bloco3"> 15 </div>
+
+
+    </main>
+    <hr>
 
 
 
