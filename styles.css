@@ -1,3 +1,7 @@
+ @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Sigmar&display=swap');
+
+
+
 .bloco1 {
 
     background-color: #00008B;
@@ -125,6 +129,7 @@
 h1 {
 
     text-align: center;
+    
 }
 
 body {
@@ -147,6 +152,45 @@ body {
     
     
 }
+
+.menu-navegacao {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .menu-navegacao ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+  }
+  
+  .menu-navegacao li {
+
+    color: #000;
+    padding: 20px;
+    font-family: 'Libre Baskerville', serif;  
+    font-weight: 400;
+    font-size: 1.3em;
+   
+    
+  }
+  
+  a {
+      text-decoration: none; color: #00008B;
+  }
+  
+  .menu-navegacao a:hover{
+      background-color: #87CEEB;
+  }
+
+  .titulopag {
+
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 40px;
+
+  }
 
 
 
@@ -423,4 +467,98 @@ body {
     height: 500px;
 }
 
+.container-aligncontent-center {
 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+
+
+    /*indiferente*/
+    background-color: #87CEEB;
+    padding: 16px;
+    height: 500px;
+}
+
+.container-aligncontent-flexstart {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+
+
+    /*indiferente*/
+    background-color: #87CEEB;
+    padding: 16px;
+    height: 500px;
+}
+
+.container-aligncontent-flexend {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: flex-end;
+
+
+    /*indiferente*/
+    background-color: #87CEEB;
+    padding: 16px;
+    height: 500px; 
+}
+
+.container-aligncontent-spacebetween {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-between;
+
+
+    /*indiferente*/
+    background-color: #87CEEB;
+    padding: 16px;
+    height: 500px;
+}
+
+.container-aligncontent-spacearound {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-around;
+
+
+    /*indiferente*/
+    background-color: #87CEEB;
+    padding: 16px;
+    height: 500px;
+}
+
+.container-aligncontent-spaceevenly {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+
+
+    /*indiferente*/
+    background-color: #87CEEB;
+    padding: 16px;
+    height: 500px; 
+}
